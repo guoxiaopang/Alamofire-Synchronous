@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name     = "Alamofire-Synchronous"
-  s.version  = "4.0.0"
+  s.version  = "5.0.0"
   s.summary  = "Synchronous requests for Alamofire"
   s.homepage = "https://github.com/Dalodd/Alamofire-Synchronous"
   s.license  = 'MIT'
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.source_files = 'Source/*.swift'
   s.requires_arc = true
 
-  s.dependency "Alamofire", "~> 5.0"
+  s.dependency "Alamofire", "~> 5.4"
 
   s.swift_version = '5.0'
 
